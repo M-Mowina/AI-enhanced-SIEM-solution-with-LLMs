@@ -8,7 +8,6 @@ An advanced Security Information and Event Management (SIEM) solution that lever
 - **Attack Detection**: Identify potential security threats and attacks using machine learning
 - **Visualization**: Interactive dashboards for security metrics and attack patterns
 - **LLM Integration**: Leverage transformer models for log summarization and threat analysis
-- **Real-time Monitoring**: Monitor security events in real-time with automated alerts
 
 ## Prerequisites
 
