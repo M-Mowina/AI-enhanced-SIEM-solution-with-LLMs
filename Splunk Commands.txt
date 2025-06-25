@@ -1,0 +1,13 @@
+Splunk Commands: [archive]
+-----------------
+General Search: source="archive.zip:*" host="DESKTOP-48V92VC" index="main"
+
+Severity Level[archive]: index="main" source="archive.zip:*" host="DESKTOP-48V92VC" "Severity Level"="Medium"
+
+Specific Ip Address: index="main" source="archive.zip:*" host="DESKTOP-48V92VC" "Source IP Address"="22.36.249.229"
+
+Multiple Search Task: index="main" source="archive.zip:*" host="DESKTOP-48V92VC" "Severity Level"="Medium" AND "Attack Type"="Intrusion"
+
+Number of Alert: index="main" source="archive.zip:*" host="DESKTOP-48V92VC" "Severity Level"="High" | stats count as HighEvents | where HighEvents > 5
+
+Visualizations: index="main" source="archive.zip:*" host="DESKTOP-48V92VC" | timechart count by "Attack Type"

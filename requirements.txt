@@ -2,7 +2,7 @@ dash==2.14.2
 pandas==2.1.4
 plotly==5.18.0 
 flask==2.0.1
-torch==2.0.1
+torch==2.0.0
 transformers==4.30.0
 torchvision==0.15.1
 numpy==1.24.3
